@@ -20,7 +20,7 @@
 		<iframe width="600" height="420" style="float:left;" src="//www.youtube.com/embed/kdov4yK5oSA" frameborder="0" allowfullscreen></iframe>
 		<!--<embed style="float:left;" src="http://www.openchiangmai.com/mediaplayer.swf" type="application/x-shockwave-flash" width="600" height="358" wmode='transparent' allowscriptaccess="always" allowfullscreen="true" quality="high" name="mpl" id="mpl" flashvars="file=http://www.openchiangmai.com/admin/vdo/vdo_gJfxzbRkD.flv&width=600&height=358&overstretch=fit&image=http://www.openchiangmai.com/admin/picture/pic_DFtjdZHmH.jpg"></embed>-->
 		<div style="width:420px;height:280px;text-align:center;float:left;padding-top:100px;font-size:40px;color:#565656;cursor:pointer;">ENTER SITE
-			<div style="font-size:20px;">Wat Jet Yod, Chiang Mai</div><br/>
+			<div style="font-size:20px;">Wat Jet Yod, Chiang Mai<br/> Thailand</div><br/>
 			<div style="font-size:14px;">Visitors on the website
 				<div id="counter">12134</div>
 			</div>

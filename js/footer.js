@@ -1,6 +1,6 @@
 this.footer = document.createElement('div');
 footer.id = 'footer';
-footer.style.cssText = 'width:100%;height:100px;display:block;float:left;text-align:center;background-color:#ffffff;border-top:solid 1px #dddddd;';
+footer.style.cssText = 'width:100%;height:100px;display:block;float:left;text-align:center;background-color:#ffffff;';
 
 var footName = document.createElement('div');
 footName.className = 'footTab';

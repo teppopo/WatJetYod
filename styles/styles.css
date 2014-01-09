@@ -1,6 +1,11 @@
+@font-face
+{
+	font-family: OpenSans;
+	src: url(../styles/OpenSans-Regular.ttf);
+}
 body{
-	font-family: Segoe UI;
-	font-size: 14px;
+	font-family: OpenSans;
+	font-size: 13px;
 	color: #565656;
 	margin:0 auto;
 	width:100%;
@@ -17,7 +22,7 @@ a{
 	margin:0 auto;
 }
 #search{
-	font-family:Segoe UI;
+	font-family:OpenSans;
 	float:right;
 	width:200px;
 	height:30px;
@@ -30,12 +35,12 @@ a{
 	background:url(../styles/search.png) no-repeat center center;
 }
 #mCenter a{
-	height:52px;
+	height:55px;
 	float:left;
 	display:block;
 	color:#666666;
 	margin:-10px 0 0 0;
-	padding:28px 15px 0 15px;
+	padding:30px 15px 0 15px;
 }
 #mCenter a:hover{
 	text-decoration:underline;
@@ -45,7 +50,7 @@ a{
 	opacity:0.7;
 }
 .social:hover{
-	opacity:1.0;
+	opacity:2.0;
 }
 #counter{
 	margin:0 auto;
@@ -53,7 +58,7 @@ a{
 	height:50px;
 	font-size:30px;
 	color:#ffffff;
-	text-shadow:1px 2px #577297;
+	text-shadow:1px 2px #3f608d;
 	background:url(../styles/counter.png) repeat-x;
 	background-color:#777777;
 	border-radius: 4px 4px 4px 4px;

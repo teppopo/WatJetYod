@@ -25,8 +25,8 @@ center.id = 'mCenter';
 center.style.cssText = 'margin:0 auto;width:1024px;';
 
 var logo = document.createElement('img');
-logo.src = 'styles/firefox.png';
-logo.style.cssText = 'float:left;margin-right:20px;';
+logo.src = 'styles/logo.png';
+logo.style.cssText = 'float:left;margin-right:20px;padding-top:3px;';
 
 var social = 'width:8px;height:34px;float:right;margin:13px 0 0 0;';
 //Google+
