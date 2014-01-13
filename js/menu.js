@@ -11,13 +11,9 @@ A = function(txt,link){
 	return a;
 }
 
-Block = function(){
-	
-}
-
 this.menu = document.createElement('div');
 menu.className = 'menu';
-menu.style.cssText = 'position:fixed;width:100%;height:70px;padding:10px 0 0 0;top:0;left:0;background-color:#ffffff;';
+menu.style.cssText = 'position:fixed;width:100%;height:70px;padding:10px 0 0 0;top:0;left:0;background-color:#ffffff;box-shadow:0 0 5px #888888;z-index:2;';
 document.body.appendChild(menu);
 
 var center = document.createElement('div');
@@ -44,10 +40,10 @@ facebook.style.cssText = social+'background:url(./styles/f.png) no-repeat 0 0;';
 
 //Menu
 center.appendChild(logo);
-center.appendChild(A('Intro','#'));
+center.appendChild(A('Intro','.'));
 center.appendChild(A('Attraction','#'));
 center.appendChild(A('History','#'));
-center.appendChild(A('Gallery','#'));
+center.appendChild(A('Gallery','gallery.php'));
 center.appendChild(A('Map','#'));
 center.appendChild(Search());
 center.appendChild(facebook);
