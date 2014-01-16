@@ -41,10 +41,10 @@ facebook.style.cssText = social+'background:url(./styles/f.png) no-repeat 0 0;';
 //Menu
 center.appendChild(logo);
 center.appendChild(A('Intro','.'));
-center.appendChild(A('Attraction','#'));
-center.appendChild(A('History','#'));
-center.appendChild(A('Gallery','gallery.php'));
-center.appendChild(A('Map','#'));
+center.appendChild(A('Attraction','attraction.html'));
+center.appendChild(A('History','history.html'));
+center.appendChild(A('Gallery','gallery.html'));
+center.appendChild(A('Map','map.html'));
 center.appendChild(Search());
 center.appendChild(facebook);
 center.appendChild(twitter);

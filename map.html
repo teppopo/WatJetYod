@@ -1,0 +1,46 @@
+﻿<html>
+<head>
+	<title>Wat Jed Yod</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>
+	<script src="js/search.js"></script>
+	<script src="js/menu.js"></script>
+	
+	<html>
+		<head>
+			<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+			<script>
+				Home = function(){
+					div = doucment.createElement('div');
+					
+				}
+				
+				var map;
+				var marker;
+				function initialize() {
+					home = new google.maps.LatLng(18.808986,98.97201);
+			
+					var mapOptions = {
+						zoom: 14,
+						center: home
+					};
+					map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+					
+					marker = new google.maps.Marker({
+						map: map,
+						position: home
+					});
+				}
+				
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+		</head>
+		<body>
+			<div id="map-canvas"></div>
+		</body>
+	</html>
+	
+	<script src="js/footer.js"></script>
+</body>
+</html>

@@ -29,10 +29,10 @@ foot.appendChild(footName);
 var footMenu = document.createElement('div');
 footMenu.style.cssText = 'float:right;';
 footMenu.innerHTML += '<br/>';
-footMenu.appendChild(A('Map','#'));
-footMenu.appendChild(A('Gallery','gallery.php'));
-footMenu.appendChild(A('History','#'));
-footMenu.appendChild(A('Attraction','#'));
+footMenu.appendChild(A('Map','map.html'));
+footMenu.appendChild(A('Gallery','gallery.html'));
+footMenu.appendChild(A('History','history.html'));
+footMenu.appendChild(A('Attraction','attraction.html'));
 footMenu.appendChild(A('Intro','.'));
 
 foot.appendChild(footMenu);

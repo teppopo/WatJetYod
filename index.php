@@ -13,7 +13,7 @@
 	
 	<div class="content">
 		<iframe width="600" height="420" style="float:left;display:inline-block;" src="//www.youtube.com/embed/kdov4yK5oSA" frameborder="0" allowfullscreen></iframe>
-		<div style="width:420px;text-align:center;float:left;padding-top:80px;font-size:40px;color:#565656;cursor:pointer;">ENTER SITE
+		<div onclick="window.location.href = 'attraction.html'" style="width:420px;text-align:center;float:left;padding-top:80px;font-size:40px;color:#565656;cursor:pointer;">ENTER SITE
 			<div style="font-size:20px;">Wat Jet Yod, Chiang Mai<br/> Thailand</div><br/>
 			<div style="font-size:14px;">People Visited Times
 				<div class="counter"><?php echo $num;?></div>
