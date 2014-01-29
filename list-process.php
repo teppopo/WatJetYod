@@ -1,20 +1,15 @@
 <?php
-function listFile($dir,$start,$end) {
-	$arr = Array();
-	//foreach (array_slice(scandir($dir),$start,$end) as $path) { //configure path
-	foreach (scandir($dir) as $path) { 
-		array_push($arr,$path);
-	}
-	return $arr;
+function listFile($dir) {
+	return glob($dir."/*.{png,gif,jpg,jpeg,PNG,GIF,JPG,JPEG}", GLOB_BRACE);//$arr;
 }
 
 $response = "";
-if(isset($_POST["type"]) && isset($_POST["start"]) && isset($_POST["end"])){
+if(isset($_POST["type"])){
 	$arr = Array();
 	if($_POST["type"]=='0'){
-		$arr = listFile("gallery/temple",$_POST["start"],$_POST["end"]);
+		$arr = listFile("gallery/temple");
 	}else if($_POST["type"]=='1'){
-		$arr = listFile("gallery/activities",$_POST["start"],$_POST["end"]);
+		$arr = listFile("gallery/activities");
 	}
 	
 	foreach($arr as $value){

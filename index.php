@@ -2,12 +2,15 @@
 	$num = file_get_contents('stats.txt', true);
 	file_put_contents('stats.txt', $num+1);
 ?>
+<!DOCTYPE HTML>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Wat Jed Yod</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 </head>
 <body>
+	<script src="js/hilitor.js"></script>
 	<script src="js/search.js"></script>
 	<script src="js/menu.js"></script>
 	

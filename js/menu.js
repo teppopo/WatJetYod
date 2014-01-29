@@ -26,15 +26,15 @@ logo.style.cssText = 'float:left;margin-right:20px;padding-top:3px;';
 
 var social = 'width:8px;height:34px;float:right;margin:13px 0 0 0;';
 //Google+
-var google = A('','https://plus.google.com/share?url=[URL]');
+var google = A('','https://plus.google.com/share?url=watjetyod.ap01.aws.af.cm');
 google.className = 'social';
 google.style.cssText = social+'background:url(./styles/g.png) no-repeat 0 0;';
 //Twitter
-var twitter = A('','http://twitter.com/home?status=[TITLE]+[URL]');
+var twitter = A('','http://twitter.com/home?status=Welcome+watjetyod.ap01.aws.af.cm');
 twitter.className = 'social';
 twitter.style.cssText = social+'background:url(./styles/t.png) no-repeat 0 0;';
 //Facebook
-var facebook = A('','http://www.facebook.com/share.php?u=www.google.co.th&title=TITLE');
+var facebook = A('','http://www.facebook.com/share.php?u=watjetyod.ap01.aws.af.cm&title=Welcome');
 facebook.className = 'social';
 facebook.style.cssText = social+'background:url(./styles/f.png) no-repeat 0 0;';
 
