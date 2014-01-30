@@ -39,7 +39,7 @@ Search = function(){
 	};
 	input.onkeydown = function(e){
 		if(e.which==13 && location.pathname.substring(location.pathname.lastIndexOf("/")+1)!='map.html'){
-			window.open('http://www.google.com/search?q='+input.value);//+' site: watjetyod.webege.com','_blank');
+			window.open('http://www.google.com/search?q='+input.value+' site: watjetyod.ap01.aws.af.cm','_blank');
 		}
 	}
 	return input;

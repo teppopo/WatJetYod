@@ -7,6 +7,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="description" content="Wat Jet Yod, Chiang Mai Thailand ENTER SITE People Visited Times">
+	<meta name="keywords" content="Wat Jet Yod, Chiang Mai Thailand ENTER SITE People Visited Times">
+	<meta name="google-site-verification" content="aLPr_KRZzXU01-oshKXiVmLjURpomTodOitHa-xV6UU">
 	<title>Wat Jed Yod</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 </head>
