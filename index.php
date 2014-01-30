@@ -6,6 +6,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Wat Jet Yod, Chiang Mai Thailand ENTER SITE People Visited Times">
 	<title>Wat Jed Yod</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
 </head>
