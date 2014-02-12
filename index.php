@@ -5,6 +5,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<meta name="google-site-verification" content="vSCKjasutaRZKhUtEEW1kaG8twRNy2L-x5WMjMRKewE" />
 	<meta charset="UTF-8">
 	<meta name="description" content="Wat Jet Yod, Chiang Mai Thailand ENTER SITE People Visited Times">
 	<meta name="keywords" content="Wat Jet Yod, Chiang Mai Thailand ENTER SITE People Visited Times">
