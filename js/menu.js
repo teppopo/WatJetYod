@@ -28,14 +28,17 @@ var social = 'width:8px;height:34px;float:right;margin:13px 0 0 0;';
 //Google+
 var google = A('','https://plus.google.com/share?url=watjetyod.project.in.th');
 google.className = 'social';
+google.target = '_blank';
 google.style.cssText = social+'background:url(./styles/g.png) no-repeat 0 0;';
 //Twitter
 var twitter = A('','http://twitter.com/home?status=Welcome+watjetyod.project.in.th');
 twitter.className = 'social';
+twitter.target = '_blank';
 twitter.style.cssText = social+'background:url(./styles/t.png) no-repeat 0 0;';
 //Facebook
 var facebook = A('','http://www.facebook.com/share.php?u=watjetyod.project.in.th&title=Welcome');
 facebook.className = 'social';
+facebook.target = '_blank';
 facebook.style.cssText = social+'background:url(./styles/f.png) no-repeat 0 0;';
 
 //Menu
