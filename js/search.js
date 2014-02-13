@@ -34,7 +34,7 @@ Search = function(){
 	};
 	input.onkeydown = function(e){
 		if(e.which==13 && location.pathname.substring(location.pathname.lastIndexOf("/")+1)!='map.html'){
-			window.open('http://www.google.com/search?q='+input.value+' site: watjetyod.project.in.th','_blank');
+			window.open('https://www.google.com/cse?cx=011928692024481225914:m2gkr7qmw5q&q='+input.value+'','_blank');
 		}
 	}
 	return input;
